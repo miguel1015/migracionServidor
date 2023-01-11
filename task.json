@@ -1,0 +1,32 @@
+[
+    {
+        "id":"0",
+        "desc": "learn a new lenguaje",
+        "estado": false
+    },
+    {
+        "id":1,
+        "desc": "will go to the cinema tomorrow",
+        "estado": true
+    },
+    {
+        "id":2,
+        "desc": "practice exercise",
+        "estado": false
+    },
+    {
+        "id":3,
+        "desc": "in the office",
+        "estado": true
+    },
+    {
+        "id":4,
+        "desc": "running in the park",
+        "estado": false
+    },
+    {
+        "id":5,
+        "desc": "got to the gym",
+        "estado":"false" 
+    }
+]
