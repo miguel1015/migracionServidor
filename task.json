@@ -2,7 +2,7 @@
     {
         "id":"0",
         "desc": "learn a new lenguaje",
-        "estado": false
+        "estado": true
     },
     {
         "id":1,
@@ -27,6 +27,6 @@
     {
         "id":5,
         "desc": "got to the gym",
-        "estado":"false" 
+        "estado": false 
     }
 ]

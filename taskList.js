@@ -1,14 +1,12 @@
 const express = require ("express");
 const app = express();
-const task = require("./task.json")
 const port = 7500;
 
+const lista = require('./list-view-router');
+app.use('/', lista);
 
-app.get("/", (req, res) =>{
-    res.json(task);   
-    res.end()
-});
-
+const edit = require('./list-edit-router');
+app.use('/', edit);
 
 
 
