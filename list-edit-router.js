@@ -12,7 +12,6 @@ router.post("/complete", (req, res) =>{
 });
 
 router.delete("/complete", (req, res) =>{
-    task
     res.send("Got a DELETE request at /complete");   
 });
 
