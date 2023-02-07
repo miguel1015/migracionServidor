@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon taskLits.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,8 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
   }
 }
