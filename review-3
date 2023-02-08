@@ -1,0 +1,8 @@
+#¿Qué es mi producto y para que sirve?
+
+Mi producto es una lista de tareas hecha por la parte del backend, con la finalidad de organizar las diferentes funcionalidades que se tienen en el dia, una especie de organizacion de tareas. Esta vez hecha con un sentido de permanencia; todos los datos estan guardados en una base de datos que tiene por nombre mongoDB, van a permanecer ahí y nada las va a borrar a menos que se desee un editacion o un eliminar pero al momento de ingresar siempre va a permanecer.
+
+
+#¿Cuáles son las funcionalidades más importantes y porque los usuarios las usarían?
+
+La funcionalidad es organizar las diferentias ideas que se tengan, pero no sera estatico, es decir; se pueden ver las diferentes tareas, editarlas y eliminarlas, hay metodos para utilizarla y tambien estan guardadas en una base de datos que permanecera. Los usuarios la usarian porque brinda un sentido de oraganizacion a los que se desee hacer, podran hacer de cuanto dessen y tenerlos en un formato donde no se va a borrar.
