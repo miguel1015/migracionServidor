@@ -1,0 +1,35 @@
+//creat task
+###
+POST http://localhost:7500/api/task HTTP/1.1
+Content-Type: application/json
+
+{
+    "number":8,
+    "name": "ir al gym",
+    "state": false
+}
+
+//get all tasks
+###
+GET  http://localhost:7500/api/task HTTP/1.1
+
+
+//get all task
+###
+GET  http://localhost:7500/api/task/63e3c15b9a4b3e6f7ec23f7e HTTP/1.1
+
+
+//update a task
+###
+PUT  http://localhost:7500/api/task/63e3c15b9a4b3e6f7ec23f7e HTTP/1.1
+Content-Type: application/json
+
+{
+    "number":2,
+    "name": "Jugar futbol los sabados",
+    "state": true
+}
+
+//Delete a task
+###
+DELETE http://localhost:7500/api/task/63e3c2289a4b3e6f7ec23f8a HTTP/1.1
